@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link href="https://fonts.googleapis.com/css?family=Kumbh+Sans:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" type='text/css'>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li class="menu-icon"><a href="#"><img src="./ecommerce-product-page-main/images/icon-menu.svg" alt="menu.svg"></a></li>
+      <li><a href="#"><img src="./ecommerce-product-page-main/images/logo.svg" alt="logo.svg"></a></li>
+      <div class="nav-menu ">
+       <li class="close-icon"><a href="#"><img src="./ecommerce-product-page-main/images/icon-close.svg" alt="close.svg"></a></li>
+      <li><a href="#" class="nav-link">Collection</a></li>
+      <li><a href="#" class="nav-link">Men</a></li>
+      <li><a href="#" class="nav-link">Women</a></li>
+      <li><a href="#" class="nav-link">About</a></li>
+      <li><a href="#" class="nav-link">Contact</a></li>
+    </div>
+      <li><div class="cart-div"><img id="cart-icon" src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart.svg" style="width: 15px; height: 15px; color: #000000; "><span id="cart-count" class="hidden">1</span></div></li>
+      <li><a href="#"><img id="avatar-img" src="./ecommerce-product-page-main/images/image-avatar.png" alt="avatar.png" ></a></li>
+    </ul>
+  </nav>
+  <div id="cart-container" class="hidden" >
+    <h1 id="cart-text">Cart</h1>
+  <p id="empty-display"> Your cart is empty</p>
+  <div id="confirm-message" class="hidden"></div>
+  <div class="cart-item">
+  </div>
+  <button class="check-out">Check Out</button>  
+</div>
+</header>
+ <main>
+  <div class="product-container">
+    <div class="product-display">
+     <img class="product-img" src="product-1.jpg" alt="product-1" >
+    <div class="product-thumbnails">
+      <img id="thumbnail" src="product-1.jpg" class="thumb active"  alt="thumbnail1.jpg" >
+      <img src="product-2.jpg"  class="thumb" alt="thumbnail2.jpg" >
+      <img src="product-3.jpg" class="thumb"  alt="thumbnail3.jpg" >
+      <img src="product-4.jpg" class="thumb"  alt="thumbnail4.jpg" >
+     
+      <!-- light-box -->
+      <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+          <button class="close-btn"><span class="material-symbols-outlined">close</span></button>
+          <button class="arrow left"><span class="material-symbols-outlined">arrow_back_ios</span></button>
+          <img id="lightbox-img" src="product-1.jpg" alt="Large View">
+          <button class="arrow right"><span class="material-symbols-outlined">arrow_forward_ios</span></button>
+        </div>
+      </div>
+      
+    </div>
+   </div>
+    <div class="product-details">
+    <h4>SNEAKER COMPANY</h4>
+    <h1 class="product-name"> Fall Limited Edition Sneakers</h1>
+   <p>  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+    <div class="product-price"><h2 class="price"> $125.00 </h2><span> 50% </span></div>
+    <h3>$250.00</h3>
+    <div class="cart">
+      <div id="quantity" class="hidden" >
+        <button class="minus">-</button>
+        <input class="input" type="number" value="1" min="1" max="100" />
+        <button class="plus">+</button>
+      </div>
+      <button class="add-to-cart"> <img src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart.svg" style="width: 15px; height: 15px; color: #000000;">  Add to cart</button>
+    </div>
+  </div>
+ </main>
+ <footer>
+  <p>&copy; All Rights Reserved</p>
+ </footer>                     
+  <script src="script.js"></script>
+</body>
+</html>

@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <span class="finalPrice">$${totalPrice}</span>
           </li>
         </div>
-        <div class="delete-icon"><img src="ecommerce-product-page-main/images/icon-delete.svg" alt="delete.svg"></div>
+        <div class="delete-icon"><img src="images/icon-delete.svg" alt="delete.svg"></div>
       </div>
     `;
     cartItemContainer.appendChild(list);

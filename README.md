@@ -1,4 +1,4 @@
-# 🛙️ Ecommerce Product Viewer
+# 🛍️ Ecommerce Product Viewer
 
 A simple, responsive **E-commerce Product Viewer** built with **HTML**, **CSS**, and **JavaScript**.  
 This project allows users to view products, switch between different product images, and interact with a clean product UI — providing a smooth and modern shopping experience.
@@ -15,6 +15,10 @@ This project allows users to view products, switch between different product ima
 ---
 ## 📸 Screenshots
 ![Desktop View](screenshot1.jpeg)
+
+--
+## 📸 Screenshots
+![Desktop View](screenshot2.jpeg)
 
 
 ## 🚀 Demo
@@ -49,7 +53,7 @@ Ecommerce-product-viewer/
 
 | Desktop View | Mobile View |
 |:------------:|:-----------:|
-| ![Desktop View](#) | ![Mobile View](#) |
+| ![Desktop View](sneakerDesktopview.gif) | ![Mobile View](sneakermobileview.gif) |
 
 *(You can add images/screenshots later if you want.)*
 

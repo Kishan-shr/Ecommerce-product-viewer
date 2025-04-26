@@ -18,7 +18,7 @@ This project allows users to view products, switch between different product ima
 
 --
 ## 📸 Screenshots
-![Desktop View](screenshot2.jpeg)
+![Desktop View](Screenshot2.jpeg)
 
 
 ## 🚀 Demo
@@ -53,7 +53,7 @@ Ecommerce-product-viewer/
 
 | Desktop View | Mobile View |
 |:------------:|:-----------:|
-| ![Desktop View](sneakerDesktopview.gif) | ![Mobile View](sneakermobileview.gif) |
+| ![Desktop View](desktopView.gif) | ![Mobile View](mobileview.gif) |
 
 *(You can add images/screenshots later if you want.)*
 
@@ -80,6 +80,9 @@ Feel free to fork this repository, raise an issue, or submit a pull request.
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
+## Author
+Developed with ❤️ by KISHAN SHARMA
+linkedin : https://www.linkedin.com/in/kishanshr/
 
 ## 🔗 Connect with Me
 
